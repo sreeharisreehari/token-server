@@ -6,7 +6,7 @@ const jwt=require('jsonwebtoken')
 exports.RegisterUser=async(req,res)=>{
 
  const {username,password}=req.body
- console.log(req.body); 
+ console.log(req.body);  
  
 
     try{
